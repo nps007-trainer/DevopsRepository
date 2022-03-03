@@ -12,7 +12,7 @@ public class MainProject {
 	//	StandardCalculator stdcalc=new StandardCalculator();
 		CallCalculator(new StandardCalculator());
 		CallCalculator(new ScientificCalculator());
-		System.out.println("new commit");
+		System.out.println("new commit on git");
 	}
 
 }
