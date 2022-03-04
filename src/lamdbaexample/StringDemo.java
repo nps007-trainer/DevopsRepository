@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package lamdbaexample;
+
+import java.util.List;
+
+/**
+ *
+ * @author Admin
+ */
+public class StringDemo {
+  public static boolean isCharactersOnly(String s)
+  {
+   return (
+           (!s.isEmpty()) && (s !=null) && (s.chars().allMatch(Character::isLetter)));
+           
+  }
+  
+  public static void countLetters(List<String> str)
+  {
+      for(String s : str)
+      {
+         if(s.length()==4)
+         {
+             System.out.println(s);
+         }      }
+     
+     
+  }
+}
